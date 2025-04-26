@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Form</title>
+ 
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <div class="icon">👩</div>
+      <h2>Let's get you set up</h2>
+      
+    </div>
+
+    <div class="right-panel">
+      <form>
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" required />
+
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" required />
+
+        <label for="color">Favorite Color</label>
+        <input type="color" id="color" name="color" />
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm-password" required />
+
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select your gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+
+        <label for="province">Province</label>
+        <select id="province" name="province" required>
+          <option value="">Select your province</option>
+          <option value="punjab">Punjab</option>
+          <option value="sindh">Sindh</option>
+          <option value="kpk">Khyber Pakhtunkhwa</option>
+          <option value="balochistan">Balochistan</option>
+          <option value="gilgit">Gilgit-Baltistan</option>
+          <option value="ajk">Azad Jammu and Kashmir</option>
+        </select>
+
+        <label for="terms">I agree to the terms and conditions</label>
+        <input type="checkbox" id="terms" name="terms" required>
+        <br><br>
+        <button type="submit">Register</button>
+      </form>
+      <footer>
+        <p>&copy; 2025 Registration Form. All rights reserved.</p>
+      </footer>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
